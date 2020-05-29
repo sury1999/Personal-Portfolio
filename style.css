@@ -23,7 +23,34 @@ body {
   font-family: monospace;
   font-size: 15px;
   text-align:center;
+    background-image: url("images/background-image.jpg");
 
+}
+
+footer {
+  background-color:rgba(255,255,255,0.2);
+  color: white;
+  padding-top: 10px;
+}
+
+footer a {
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: inline-block;
+  text-decoration: none;
+}
+footer p {
+  color:white;
+  text-align: center;
+}
+
+footer h3 {
+  padding-top: 10px;
+}
+
+.row-footer {
+  display: block;
 }
 
 #navbar {
@@ -31,20 +58,55 @@ body {
   top: 0px;
   width:100%;
   height:30px;
-  background-color: black;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  background-color: rgba(0,0,0,0.6);
+  padding-bottom: 16px;
+  padding-top: 16px;
 
 }
 
 #navbar a{
-  color: blue;
+  color: #fcba03;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 
 #welcome-section {
   height: 100vh;
-  color:green;
-  background-image: url("https://images.unsplash.com/photo-1580432551600-8c9768628a9e?ixlib=rb-1.2.1&w=1000&q=80");
-  
+  color:#fcba03;
+
+  font-size: 30px;
+
+}
+
+#welcome-section h1 {
+  padding-top: 50px;
+}
+
+#profile-link img{
+  mix-blend-mode: multiply;
+  height:40px;
+  width: 40px;
+}
+
+#projects {
+  background-image: linear-gradient(#000c17, #0260b5);
+  padding-bottom: 35px;
+}
+
+.project-tile {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 20px;
+}
+
+#projects p {
+color: gold;
+}
+#projects a {
+  text-decoration: none;
 }
